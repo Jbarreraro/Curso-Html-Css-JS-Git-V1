@@ -8,3 +8,8 @@ function sum (number1,number2){
   var result = number1 + number2
   return result
 }
+
+var P_elements = document.getElementsByTagName("p");
+
+var second_paragraph = document.getElementById("second_paragraph");
+
