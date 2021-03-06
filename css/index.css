@@ -18,6 +18,8 @@ input{
   padding: 10px;
   text-align: center;
   margin: 3px;
+  height: 20px;
+  width: 350px;
 }
 a p{
   color: rgb(197, 0, 0);

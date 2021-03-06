@@ -10,9 +10,11 @@
   <body>
     <section>
       <form name="1formulario" id="1formulario" method="get" autocomplete="off">
-        Numero 2:&nbsp<input type="number" min="2000" max="10000" id="first_number"><br>
-        Numero 1:&nbsp<input type="number" min="100" max="1000" id="second_number"><br>
+        Numero 2:&nbsp<input type="number" min="2000" max="10000" id="first_number" placeholder="Ingrese un numero entre 2000 y 10000"><br>
+        Numero 1:&nbsp<input type="number" min="100" max="1000" id="second_number" placeholder="Ingreae un numero entre 100 y 1000"><br>
+        <input type="datetime-local" ><br>
         <input type="submit" value="Sumar" id="submit" onclick="alert(sum())">
+        <input type="email" required>
       </form>
     </section>
   </body>
