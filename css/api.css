@@ -1,0 +1,31 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+     margin: 0;
+     font-size: 100%;
+     font-weight: normal;
+    }
+    table { border-collapse: collapse; border-spacing: 0; }
+    td, th, caption { font-weight: normal; text-align: left; }
+    img, fieldset { border: 0; }
+    ol { padding-left: 1.4em; list-style: decimal; }
+    ul { padding-left: 1.4em; list-style:square; }
+    q:before, q:after { content:''; }
+    
+table{
+    text-align: center;
+    background-color: rgb(189, 255, 233);
+    width: 30%;
+    margin: auto;
+    border: 2px rgb(47, 73, 75) dashed;
+    height: 20%;
+}
+td{
+    padding: 15px;
+}
+body{
+    background:rgb(196, 238, 238) ;
+
+}
+div{
+    background: rgb(233, 188, 106);
+}

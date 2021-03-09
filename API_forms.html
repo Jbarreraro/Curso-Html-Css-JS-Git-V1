@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API forms</title>
+        <link rel="stylesheet" href="css/api.css">
+        <script src=""></script>
+    </head>
+    <body>
+        <form name="first_form" method="get">
+            <datalist id="information">
+                <option value="1235465765" label="Telefono 1"></option>
+                <option value="5465667567" label="Telefono 2"></option>
+                <option value="7984567842" label="Telefono 3"></option>
+            </datalist>
+            Telefono:&nbsp;<input type="tel" name="telephone" id="telephone" list="information">
+        </form>
+        <form name="second_form" method="get">
+            <table>
+                <tr><td>
+                Nombre:&nbsp;</td><td><input type="text" name="name" id="name"></td></tr>
+                <tr><td>
+                Apellido:&nbsp;</td><td><input type="text" name="last_name" id="last_name"></tr></td>
+                <tr><td>
+                Edad:&nbsp;</td><td><input type="number" name="age" id="age"></tr></td>
+                <tr><td>
+                <input type="submit" id="send" value="Enviar"></tr></td>
+            </table>
+        </form>
+    </body>
+</html>

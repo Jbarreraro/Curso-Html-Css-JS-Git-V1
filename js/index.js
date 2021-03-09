@@ -13,3 +13,8 @@ var P_elements = document.getElementsByTagName("p");
 
 var second_paragraph = document.getElementById("second_paragraph");
 
+var element = document.createElement("h2");
+const content = document.createTextNode("Texto agregado desde un archivo de JavaScript");
+element.appendChild(content);
+element.setAttribute("align","center");
+document.getElementById("subtitle").appendChild(element);
